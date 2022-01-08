@@ -2,6 +2,7 @@
 #include<stdio.h>
 
 #define TEST_WORKS 1024
+#define TEST_NOT_WORKING 1024*1024      // ran valgrind to verify
 
 int main()
 {

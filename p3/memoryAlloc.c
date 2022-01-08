@@ -3,7 +3,7 @@
 #include "memoryAlloc.h"
 #include<stdio.h>
 
-#define DELTA 64        //
+#define DELTA 64        //Used to slice the memory chunks
 #define MAX_ALLOC_SIZE 1024*1024
 node * heap_list_head = NULL;  //Points to the start of free list which keeps metadata about blocks
 void * chunk_ptr = NULL;
