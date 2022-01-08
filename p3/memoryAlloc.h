@@ -17,4 +17,6 @@ void my_dealloc(void * ptr);
 
 int memory_alloc_init();
 
+int memory_alloc_destroy();
+
 #endif
