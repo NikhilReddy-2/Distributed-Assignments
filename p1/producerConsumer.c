@@ -84,7 +84,6 @@ int main(int argc, char * argv){
     pthread_join(consumer,NULL);
 
     sem_destroy(&items_available);
-
     
     return 0;
 }
